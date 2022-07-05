@@ -16,13 +16,13 @@ h4 {
     color: orange;
 }
 
-section {
+.flaxible-container {
     display: flex;
     margin-bottom: 100px;
 }
 
 section p {
-    padding-right: 150px;
+    padding-right: 100px;
 }
 
 .half-width {
@@ -62,5 +62,40 @@ section p {
     background-repeat: no-repeat;
     background-position: right;
 
+}
 
+.blue-color {
+    color: blue;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.exp-full-stack {
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 100px;
+    border-radius: 20px;
+
+}
+
+#full-stuck {
+    border-left: 18px;
+    border-left: solid orangered;
+}
+
+#baby-web {
+    border-left: 40px;
+    border-left: solid blue;
+}
+
+footer p {
+    text-align: center;
+    font-size: 15px;
+    color: gray;
 }
