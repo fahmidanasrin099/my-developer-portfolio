@@ -22,7 +22,7 @@ section {
 }
 
 section p {
-    padding-right: 100px;
+    padding-right: 150px;
 }
 
 .half-width {
@@ -54,5 +54,13 @@ section p {
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
 
 }
